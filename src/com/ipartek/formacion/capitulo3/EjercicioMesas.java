@@ -12,33 +12,43 @@ public class EjercicioMesas {
 
 		Mesa mIzaskun = new Mesa();
 		mIzaskun.setNumeroPatas(8);
-		mIzaskun.setDimension(5);
+		mIzaskun.setDimension(6);
 		mIzaskun.setColor("negro");
-		mIzaskun.setMaterial(1);
+		mIzaskun.setMaterial(Mesa.MATERIAL_MADERA);
+		System.out.println(mIzaskun.toString());
+		System.out.println("Precio mesa Izaskun: " + mIzaskun.getPrecio());
 
 		Mesa mMikel = new Mesa();
-		mMikel.setNumeroPatas(8);
+		mMikel.setNumeroPatas(2);
 		mMikel.setDimension(5);
-		mMikel.setColor("negro");
-		mMikel.setMaterial(1);
+		mMikel.setColor("verde");
+		mMikel.setMaterial(Mesa.MATERIAL_MADERA);
+		System.out.println(mMikel.toString());
+		System.out.println("Precio mesa Mikel: " + mMikel.getPrecio());
 
 		Mesa mAingeru = new Mesa();
-		mAingeru.setNumeroPatas(8);
-		mAingeru.setDimension(5);
-		mAingeru.setColor("negro");
-		mAingeru.setMaterial(1);
+		mAingeru.setNumeroPatas(5);
+		mAingeru.setDimension(7);
+		mAingeru.setColor("plateado");
+		mAingeru.setMaterial(Mesa.MATERIAL_ACERO);
+		System.out.println(mAingeru.toString());
+		System.out.println("Precio mesa Aingeru: " + mAingeru.getPrecio());
 
 		Mesa mJoseba = new Mesa();
-		mJoseba.setNumeroPatas(8);
+		mJoseba.setNumeroPatas(3);
 		mJoseba.setDimension(5);
-		mJoseba.setColor("negro");
-		mJoseba.setMaterial(1);
+		mJoseba.setColor("amarillo");
+		mJoseba.setMaterial(3);
+		System.out.println(mJoseba.toString());
+		System.out.println("Precio mesa Joseba: " + mJoseba.getPrecio());
 
 		Mesa mAnder = new Mesa();
-		mAnder.setNumeroPatas(8);
-		mAnder.setDimension(5);
-		mAnder.setColor("negro");
-		mAnder.setMaterial(1);
+		mAnder.setNumeroPatas(1);
+		mAnder.setDimension(2);
+		mAnder.setColor("custom");
+		mAnder.setMaterial(Mesa.MATERIAL_PLASTICO);
+		System.out.println(mAnder.toString());
+		System.out.println("Precio mesa Ander: " + mAnder.getPrecio());
 
 	}
 }
